@@ -39,12 +39,12 @@ public class LoginController extends URLMappingConstants {
 				return modelAndView;
 			}else{
 				ModelAndView modelAndView = new ModelAndView(LOGINDEF);
-				model.put("MSG","Invalid UserId Or Password");
+				model.put("MSG","Invalid UserId Or Password..");
 				return modelAndView;
 			}
 		}else{
 			ModelAndView modelAndView = new ModelAndView(LOGINDEF);
-			model.put("MSG","Invalid UserId Or Password");
+			model.put("MSG","Invalid UserId Or Password..");
 			return modelAndView;
 		}
 		
